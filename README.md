@@ -3,16 +3,16 @@ release.exe is a Windows command for generating full / differential release mani
 
 Quick command reference:
 
-<b>release create</b> <i>release-name</i>.txt
+<b>release create</b> <i>release-name</i>.txt</br>
 creates a full release manifest file.
 
-<b>release verify</b> <i>release-name</i>.txt
+<b>release verify</b> <i>release-name</i>.txt</br>
 verifies a release manifest file.
 
-<b>release diff</b> release-name.txt <i>prior-release-name</i>.txt
+<b>release diff</b> release-name.txt <i>prior-release-name</i>.txt</br>
 creates a differential release (removes unchanged files).
 
-<b>release hash</b> <i>file</i>
+<b>release hash</b> <i>file</i></br>
 diplays a hash for the specified file.
 
 For a walk-through of how to use release.exe, see this blog post:
